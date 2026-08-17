@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Dark Background -->
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06090E" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#06090E" />
+    </linearGradient>
+
+    <!-- Emerald Cyan Gradient -->
+    <linearGradient id="ogGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#00F5A0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#ogBg)" />
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="150" r="300" fill="#10B981" fill-opacity="0.08" filter="blur(80px)" />
+  <circle cx="1000" cy="450" r="350" fill="#06B6D4" fill-opacity="0.08" filter="blur(80px)" />
+
+  <!-- Glass Card Container -->
+  <rect x="80" y="80" width="1040" height="470" rx="32" fill="#FFFFFF" fill-opacity="0.02" stroke="#10B981" stroke-opacity="0.2" stroke-width="2" />
+
+  <!-- Accent Top Line -->
+  <rect x="80" y="80" width="1040" height="6" rx="3" fill="url(#ogGrad)" />
+
+  <!-- Eyebrow -->
+  <text x="140" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#10B981" letter-spacing="4">
+    FULL STACK DEVELOPER
+  </text>
+
+  <!-- Main Title -->
+  <text x="140" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" fill="#FFFFFF">
+    Shivam <tspan fill="url(#ogGrad)">Chaudhary</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="140" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" fill="#94A3B8">
+    Building scalable web applications, REST APIs &amp; modern user experiences.
+  </text>
+
+  <!-- Skills Chips -->
+  <g transform="translate(140, 410)">
+    <!-- Chip 1 -->
+    <rect x="0" y="0" width="140" height="48" rx="12" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-opacity="0.3" />
+    <text x="70" y="30" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#00F5A0" text-anchor="middle">Spring Boot</text>
+
+    <!-- Chip 2 -->
+    <rect x="160" y="0" width="120" height="48" rx="12" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-opacity="0.3" />
+    <text x="220" y="30" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#00F5A0" text-anchor="middle">React.js</text>
+
+    <!-- Chip 3 -->
+    <rect x="300" y="0" width="130" height="48" rx="12" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-opacity="0.3" />
+    <text x="365" y="30" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#00F5A0" text-anchor="middle">Node.js</text>
+
+    <!-- Chip 4 -->
+    <rect x="450" y="0" width="130" height="48" rx="12" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-opacity="0.3" />
+    <text x="515" y="30" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#00F5A0" text-anchor="middle">MongoDB</text>
+  </g>
+
+  <!-- Domain Badge Right -->
+  <g transform="translate(850, 160)">
+    <rect x="0" y="0" width="190" height="50" rx="16" fill="#06090E" stroke="#10B981" stroke-opacity="0.4" />
+    <text x="95" y="32" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#00F5A0" text-anchor="middle">Shivam.dev</text>
+  </g>
+</svg>
